@@ -1,0 +1,34 @@
+{
+  "maxFeePerGasGwei": 34.8,
+  "contractsWithCode": 18,
+  "deposit": {
+    "tx": "0xcd053d3ba77fac7f43028bd07508dccbb79b388dd01ffa085498a49eb5d6dadd",
+    "shares": "10000000000000",
+    "navUsdc": "9.989199",
+    "sharePrice": "0.998919",
+    "idleUsdc": "1",
+    "modules": [
+      {
+        "m": "0x4ae376E3fC676E755075161447FEC4faf7878CF1",
+        "valueUsdc": "3.6"
+      },
+      {
+        "m": "0xe418046db719031fB0A32ACA1AB23C2689B67a41",
+        "valueUsdc": "3.589199"
+      },
+      {
+        "m": "0xc5AD02de68b65a95Cde603926CF7b9B8E0aCb5c6",
+        "valueUsdc": "1.8"
+      }
+    ]
+  },
+  "withdraw": {
+    "tx": "0x261c06640dc13c081e0be36b5f5e84c633bc89289b11b3555157ee21e1b554da",
+    "assets": "1000000",
+    "maxWithdrawBefore": "1000000",
+    "usdcDelta": "-9042696"
+  },
+  "overBufferRedeemReverts": true,
+  "blocklistProbe": "reverted: The contract function \"transfer\" reverted with the following reason:",
+  "ok": true
+}

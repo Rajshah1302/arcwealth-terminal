@@ -1,0 +1,98 @@
+{
+  "chainId": 5042002,
+  "network": "Arc Testnet",
+  "deployer": "0xB7655F0E26D9413Fc811D7Cd634b1CbeAC06bEf7",
+  "deployedAt": "2026-11-06T19:12:04.707Z",
+  "contracts": {
+    "USDC": "0x3600000000000000000000000000000000000000",
+    "oracle": "0x7e7eBf2b872741d4c3904ccB891917107CDB7bcB",
+    "router": "0xB8CeF38d18AF827AC1D46bDa599e31a0fA440E54",
+    "issuer": "0x4AfaB11Aa0027DFF6e57831f23f2478EB8802016",
+    "counterparty": "0x196b6363c4E15Fcdc4Dbe19Acc897417F3a4Fa75",
+    "lending": "0xF146c37c9aF50784bf558BDE3Db56247d33E2212",
+    "riskManager": "0xF6525a24d659B49E039c2E06200Fe9392FA4B156",
+    "strategyManager": "0xCc8C0A58Ee0bf9d7b4684EA0E8264F6c1C598532",
+    "investorVault": "0xbf8aD962b790b1E79a74af2d33EBe0931943Ae09",
+    "timelock": "0x4d87Cd4cf0ec9AFd7D09c84065BB47C95bd64D57"
+  },
+  "strategies": {
+    "s1": {
+      "vault": "0xd2CFeb21c1703f3DF65F7E9E96478c49cc88FE73",
+      "modules": {
+        "bond": "0x4ae376E3fC676E755075161447FEC4faf7878CF1",
+        "calls": "0xe418046db719031fB0A32ACA1AB23C2689B67a41",
+        "tactical": "0xc5AD02de68b65a95Cde603926CF7b9B8E0aCb5c6"
+      },
+      "disclosureHash": "0xa4badd273cb06b45caadcb04cab27158908b3adc10f4bed3e746af062611e37b",
+      "configHash": "0xbcc45cb4b9cf7b3d12a39a69b4c72a5ccf9f7888af849132f847fbdd2047edd3"
+    },
+    "s2": {
+      "vault": "0x567C87b9B1794C6b624f15C9eb6EB3CB3536a76c",
+      "modules": {
+        "allocator": "0xF7880D35D2c731F5aee9bCde153f1dBE5BC62F23"
+      },
+      "disclosureHash": "0x3372fdc659e76e607f501f3bc6c3229141d762dfa219d8430bc022cf56fc13be",
+      "configHash": "0x8cd3faa32060bbbce8d94c48476ee80fe8616ec35e1a4456ff29101f74253e10"
+    },
+    "s3": {
+      "vault": "0x128A5bAB0293667Ba655199f4725ea650281bC66",
+      "modules": {
+        "calls": "0x0dc96D0f788C91d1280E4ebE488D9fDfF4d33fA2"
+      },
+      "disclosureHash": "0x82346aa93a86303a504dbae1772f782dc00a739b2fd6666de2bfaf66ad625dfb",
+      "configHash": "0x452fc0200cc0c539bf5a54138636fcc79dbf06ccfe5afa144e8a0f5931d9ab53"
+    }
+  },
+  "tokens": {
+    "dBTC": {
+      "address": "0x9fC03C672fe2e3EBcf72E9E6B11F2551D658fa1e",
+      "decimals": 18,
+      "tier": "DEMO-ONCHAIN"
+    },
+    "dETH": {
+      "address": "0xf78bcA77ED3516f9bcEF1279047036EFb1C8b8a4",
+      "decimals": 18,
+      "tier": "DEMO-ONCHAIN"
+    },
+    "dSOL": {
+      "address": "0xFF16c6aC6b87e0A1cB682a9ab33a4fD8eB24fAe6",
+      "decimals": 18,
+      "tier": "DEMO-ONCHAIN"
+    },
+    "dXAU": {
+      "address": "0xcBccaAe65E6382a5D7934B002e612ac03752c237",
+      "decimals": 18,
+      "tier": "DEMO-ONCHAIN"
+    },
+    "dXAG": {
+      "address": "0xDAfCD3a837522D42F43f72c0574888D13B876914",
+      "decimals": 18,
+      "tier": "DEMO-ONCHAIN"
+    },
+    "dCOPR": {
+      "address": "0x9f634F92a980C6E88C970A8E065452f9ADA5908d",
+      "decimals": 18,
+      "tier": "DEMO-ONCHAIN"
+    },
+    "dTBILL": {
+      "address": "0x7047b9A19E7Fc8Fc977789Bf9257c6A56CdAC423",
+      "decimals": 18,
+      "tier": "DEMO-ONCHAIN"
+    },
+    "cirBTC": {
+      "address": "0xf0C4a4CE82A5746AbAAd9425360Ab04fbBA432BF",
+      "decimals": 8,
+      "tier": "LIVE-TESTNET"
+    },
+    "WETH": {
+      "address": "0x2c4047028a72803939b6fb674D01bC059B5C4961",
+      "decimals": 18,
+      "tier": "LIVE-TESTNET"
+    },
+    "EURC": {
+      "address": "0x89B50855Aa3bE2F677cD6303Cec089B5F319D72a",
+      "decimals": 6,
+      "tier": "LIVE-TESTNET"
+    }
+  }
+}

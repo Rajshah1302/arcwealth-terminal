@@ -1,0 +1,14 @@
+# Render Blueprint: one Docker web service serving the API and the built frontend.
+# Postgres runs in-process (PGlite) unless you add DATABASE_URL. Keepers stay off unless you add DEPLOYER_PRIVATE_KEY.
+services:
+  - type: web
+    name: arcwealth
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/health
+    envVars:
+      - key: PORT
+        value: "7860"
+      - key: KEEPERS
+        value: "off"

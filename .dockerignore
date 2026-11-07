@@ -1,0 +1,9 @@
+node_modules
+dist
+.env
+.env.*
+contracts/out
+contracts/cache
+.circle
+recovery_file*
+deployments/.progress.json
